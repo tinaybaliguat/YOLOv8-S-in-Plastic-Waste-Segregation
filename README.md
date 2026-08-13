@@ -18,7 +18,7 @@ A desktop GUI application that uses a fine-tuned **YOLOv8-s** model to detect an
 
 ## Motivation
 
-Briefly describe the problem this thesis addresses — e.g. the difficulty of manual plastic sorting, environmental impact of unsegregated waste, and how automated resin-type detection can support recycling workflows. (2–4 sentences, pulled from your thesis intro.)
+Plastic pollution poses a significant threat in Sustainable Development Goal (SDG) 11, which aimed to make cities and human settlements inclusive, safe, resilient, and sustainable. Despite mitigation of the said problem, traditional manual sorting methods remain inefficient and prone to errors. To address this issue, the researchers utilized You Only Look Once version 8-Small (YOLOv8-S), a deep learning model optimized for real-time object detection, to classify six major plastic types: Polyethylene Terephthalate (PET), High-Density Polyethylene (HDPE), Low-Density Polyethylene (LDPE), Polyvinyl Chloride (PVC), Polypropylene (PP), and Polystyrene (PS) under various conditions such as deformed, dirty, and overlapping.
 
 ## Features
 
@@ -86,7 +86,10 @@ python app/rec.py
 ├── models/
 │   └── best.pt           # Trained YOLOv8-s weights 
 ├── docs/
-│   └── demo.gif           # Demo screenshot/GIF (optional)
+│   └── recyclense-1.png
+│   └── recyclense-2.png
+│   └── recyclense-3.png
+│   └── recyclense-4.png
 ├── requirements.txt
 ├── .gitattributes         # Git LFS tracking rules
 ├── .gitignore
