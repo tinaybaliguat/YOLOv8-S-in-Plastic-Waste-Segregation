@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+venv/
+env/
+.venv/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# YOLO / Ultralytics training artifacts
+runs/
+wandb/
+*.cache
+
+# Datasets (host separately — don't commit raw datasets)
+datasets/
+data/raw/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+*.env
+
+# Model weights: comment the line below OUT once best.pt is tracked via Git LFS
+# best.pt
