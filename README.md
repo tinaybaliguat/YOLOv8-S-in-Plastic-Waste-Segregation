@@ -86,7 +86,10 @@ python app/rec.py
 ├── models/
 │   └── best.pt           # Trained YOLOv8-s weights 
 ├── docs/
-│   └── demo.gif           # Demo screenshot/GIF (optional)
+│   └── recyclense-1.png
+│   └── recyclense-2.png
+│   └── recyclense-3.png
+│   └── recyclense-4.png
 ├── requirements.txt
 ├── .gitattributes         # Git LFS tracking rules
 ├── .gitignore
