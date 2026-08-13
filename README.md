@@ -90,6 +90,8 @@ python app/rec.py
 │   └── recyclense-2.png
 │   └── recyclense-3.png
 │   └── recyclense-4.png
+├── yolo/
+│   └── Yolov7_StrongSORT_OSNet    # For object tracking  
 ├── requirements.txt
 ├── .gitattributes         # Git LFS tracking rules
 ├── .gitignore
@@ -123,5 +125,6 @@ This project is licensed under the [MIT License](LICENSE).
 - Ultralytics YOLOv8
 - WaDaBa Waste Database
 - Roboflow
+- YOLOv7 STRONGSort OSNet object tracking (github repo: https://github.com/mikel-brostrom/Yolov7_StrongSORT_OSNet)
 - Dr. Elmer Haro and the rest of CIT Faculty
 - My family, friends, and team members
